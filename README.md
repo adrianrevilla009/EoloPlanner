@@ -1,2 +1,2 @@
 # EoloPlanner
-Spring and Quarkus apps using different comunicating protocols
+Spring and Quarkus apps using gRPC and GraphQL comunicating protocols. Besides, MySQL and MongoDB databases.

@@ -6,6 +6,9 @@
         <option value="$USER_HOME$/Downloads/server/server/pom.xml" />
         <option value="$USER_HOME$/Downloads/topoService/topoService/pom.xml" />
         <option value="$USER_HOME$/Downloads/weatherservice/weatherservice/pom.xml" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/topoService/pom.xml" />
+        <option value="$PROJECT_DIR$/weatherservice/pom.xml" />
       </list>
     </option>
   </component>

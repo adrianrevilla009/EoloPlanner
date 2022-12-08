@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/eoloPlanner.iml" filepath="$PROJECT_DIR$/.idea/eoloPlanner.iml" />
       <module fileurl="file://$USER_HOME$/Downloads/server/server/server.iml" filepath="$USER_HOME$/Downloads/server/server/server.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/topoService/topoService/topoService.iml" filepath="$USER_HOME$/Downloads/topoService/topoService/topoService.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/weatherservice/weatherservice/weatherservice.iml" filepath="$USER_HOME$/Downloads/weatherservice/weatherservice/weatherservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topoService/topoService.iml" filepath="$PROJECT_DIR$/topoService/topoService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weatherservice/weatherservice.iml" filepath="$PROJECT_DIR$/weatherservice/weatherservice.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package masterCloudApps.comunications;
+package masterCloudApps.comunications.controllers;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

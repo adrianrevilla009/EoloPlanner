@@ -1,5 +1,6 @@
 package masterCloudApps.comunications.topoService.controllers;
 
+import masterCloudApps.comunications.topoService.data.TopographicDetailsDataLoader;
 import masterCloudApps.comunications.topoService.models.TopographicDetails;
 import masterCloudApps.comunications.topoService.services.TopographicDetailsService;
 import org.springframework.http.ResponseEntity;
@@ -14,9 +15,12 @@ import java.util.Optional;
 @RequestMapping(value = "/api/topographicdetails")
 public class TopographicDetailsController {
     private final TopographicDetailsService topographicDetailsService;
+    private final TopographicDetailsDataLoader topographicDetailsDataLoader;
 
-    public TopographicDetailsController(TopographicDetailsService topographicDetailsService) {
+    public TopographicDetailsController(TopographicDetailsService topographicDetailsService,
+                                        TopographicDetailsDataLoader topographicDetailsDataLoader) {
         this.topographicDetailsService = topographicDetailsService;
+        this.topographicDetailsDataLoader = topographicDetailsDataLoader;
     }
 
     @GetMapping(value = "/{id}")
